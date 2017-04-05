@@ -1,0 +1,209 @@
+
+
+::selection {
+    background-color: #d01e29;
+    color: WHITE;
+}
+
+body
+{
+    position: relative;
+    overflow: auto;
+    margin:0px;
+    padding:0px;
+}
+#intropan
+{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.4;
+    text-align: justify;
+    margin-top: 185px;
+    padding-bottom: 300px;
+    color:#d01e29;
+    background-color: #b6b7b7;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0px;
+}
+
+.navbar-toggle {
+   padding: 200px;
+}
+
+#vid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+
+    overflow: hidden;
+
+
+}
+
+@-webkit-keyframes spinner {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spinner {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.spinner {
+    position: absolute;
+
+    width: 34px;
+    height: 34px;
+    top: 50%;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: 8px;
+}
+
+.spinner:after, .spinner:before {
+    content: "";
+   position: absolute;
+    border: 2px solid white;
+    width: 30px;
+    height: 30px;
+
+}
+.spinner:after {
+    -webkit-animation: spinner 5s linear infinite;
+    animation: spinner 5s linear infinite;
+}
+.spinner:before {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+    -webkit-animation: spinner 5s linear infinite;
+    animation: spinner 5s linear infinite;
+    -webkit-animation-direction: reverse;
+    animation-direction: reverse;
+    background-color: #d01e29;
+
+}
+
+
+
+.navbar :hover {
+    color: #d01e29 !important;
+    transition-duration: .5s;
+
+}
+
+.navbar {
+    border-bottom: 1px solid;
+    border-bottom-color: #d01e29;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.navbar :hover{
+    border-bottom-color: #d01e29;
+    transition-duration: .5s;
+}
+
+#head{
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+#introduction {
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+#headshot
+{
+    max-width: 40%;
+    max-height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+p{
+    padding-top: 1.5%;
+}
+
+#projpan
+{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.4;
+    text-align: justify;
+    margin-top: 40px;
+    padding-bottom: 445px;
+    color:#d01e29;
+    background-color: WHITE;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0px;
+}
+
+#text
+{
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.4;
+    text-align: center;
+    padding-top: 2%;
+    color: WHITE;
+}
+
+#introhead, #projhead
+{
+    text-align: center;
+}
+
+#projp,#projp2, #conhead, #contact1
+{
+    text-align: center;
+}
+
+
+#intropan, #projpan
+{   
+    padding-top: 5%;
+}
+
+#contactpan
+{
+    padding-top: 7%;
+}
+
+#mail
+{
+    color: #d01e29;
+}
+
+.navbar-brand
+{
+    outline: none;
+
+}
+
